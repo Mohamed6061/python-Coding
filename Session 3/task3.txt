@@ -1,0 +1,27 @@
+Gussing Game
+
+use random library to get random number using this code will give you random number
+
+>> import random
+>> target = random.randint(1, 20)
+
+User Input and Feedback:
+    - target number is between 1 ,20
+    - The player is repeatedly prompted to guess the number using input().
+    - Each guess is compared to the target number:
+    - If the guess less than target number, print "Too low!".
+    - If the guess more than target number, print "Too high!".
+    - If the guess is correct, the program congratulates the player and ends the game.
+        Attempts Counter:
+    - A variable attempts is incremented with every guess. This keeps track of the number of attempts the player has made.
+    - player have 5 tries
+    - End of Game:
+    - Once the player guesses the correct number, the program outputs a congratulatory message along with the total number of attempts.
+
+Example
+>> Guess a number between 1 and 20: 5
+>> Too low!
+>> Guess a number between 1 and 20: 8
+>> Too high!
+>> Guess a number between 1 and 20: 7
+>> Correct! You guessed it in 3 attempts.
