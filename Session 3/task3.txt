@@ -25,3 +25,14 @@ Example
 >> Too high!
 >> Guess a number between 1 and 20: 7
 >> Correct! You guessed it in 3 attempts.
+
+--------------------------------------------------------------------
+Task 2
+Sum numbers from 0 to n
+n is input number
+
+>> Enter number : 5
+>> summation numbers 1 to 5 = 15
+
+# 1+2+3+4+5=15
+
